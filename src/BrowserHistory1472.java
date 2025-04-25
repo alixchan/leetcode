@@ -23,8 +23,7 @@ public class BrowserHistory1472 {
     }
 
     public String forward(int steps) {
-        int actualSteps = Math.min(steps, history.size() - 1 - pointer);
-        pointer += actualSteps;
+        pointer += Math.min(steps, history.size() - 1 - pointer);
         return history.get(pointer);
     }
 
