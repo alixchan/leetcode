@@ -1,4 +1,4 @@
-package FS;
+package Search;
 
 public class PathMaximumGold1219 {
     public int getMaximumGold(int[][] grid) {
